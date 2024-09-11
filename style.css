@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*
+:root{
+    --cor0:
+    --cor1:
+    --cor2:
+    --cor3:
+    --cor4:
+    --cor5:
+
+    --fonte-padrao: Arial, sans-serif;
+    --fonte-destaque: Bebas Neue, curisve;
+    --fonte-android: Android, cursive;
+}
+*/
+
+@font-face {
+    font-family: 'Terraria' ;
+    src: url('font/Andy Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url('image/ceu-300.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: 'Terraria';
+    margin: 0px;
+}
+header{
+    background-image: url('image/n-2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.483);
+}
+header>h1{
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    margin: 0px;
+}
+header>p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    /*
+    text-indent: 30px; (quebra paragrafo)
+    */
+}
+nav{
+    text-align: center;
+    color: white;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 1000px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.483);
+}
+main>section>h1{
+    text-align: center;
+    font-size:1.5em;
+}
+main>section>h2{
+    text-align: center;
+}
+main>section>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+}
+#p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+#imagem1 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+#imagem2 {
+    position: relative;
+    height: relative;
+    width: 100%;
+    margin: auto;
+}
+
+#video1{
+    background-image: url('image/normal-tarde.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.483);
+}
+
+#video2{
+    background-image: url('image/hell.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.483);
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
